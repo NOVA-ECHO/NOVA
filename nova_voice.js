@@ -1,0 +1,1 @@
+console.log("NOVA voice system initialized");
