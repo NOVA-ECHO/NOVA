@@ -1,0 +1,6 @@
+
+body { background-color: #111; color: #eee; font-family: sans-serif; text-align: center; padding: 2rem; }
+#nova-app { max-width: 600px; margin: auto; }
+input[type="text"] { width: 80%; padding: 0.5rem; }
+button { padding: 0.5rem 1rem; margin-top: 1rem; }
+p { background: #222; padding: 1rem; border-radius: 5px; margin: 1rem 0; }

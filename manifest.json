@@ -1,0 +1,11 @@
+
+{
+    "short_name": "NOVA",
+    "name": "NOVA Super AI Assistant",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "description": "NOVA, the ultimate AI assistant.",
+    "icons": []
+}
