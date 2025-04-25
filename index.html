@@ -10,6 +10,11 @@
 <body>
     <input id="input" placeholder="Talk to NOVA..." />
     <button onclick="sendToNova()">Send</button>
+    
+    <!-- Load Bootloader first -->
+    <script src="nova_bootloader.js"></script>
+    
+    <!-- Then load the other scripts -->
     <script src="nova_core.js"></script>
     <script src="nova_ui.js"></script>
     <script src="nova_voice.js"></script>
