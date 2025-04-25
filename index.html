@@ -1,1 +1,17 @@
-<!DOCTYPE html><html><head><title>NOVA</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css"></head><body><input type="text" id="input" placeholder="Talk to NOVA..."><button onclick="send()">Send</button><script src="nova.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NOVA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="nova.js"></script>
+</head>
+<body>
+    <div class="nova-container">
+        <h1>Welcome to NOVA</h1>
+        <input type="text" id="userInput" placeholder="Talk to NOVA..." />
+        <button onclick="sendToNova()">Send</button>
+        <div id="novaResponse"></div>
+    </div>
+</body>
+</html>
